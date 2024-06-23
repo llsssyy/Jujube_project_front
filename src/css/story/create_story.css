@@ -1,0 +1,114 @@
+
+#create_story_wrap .preview_img_wrap {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #888;
+}
+
+#create_story_wrap .label_img {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#create_story_wrap .label_img label {
+    display: inline-block;
+    padding: 3px 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2186e4;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+#create_story_wrap .input_file_img {
+    display: none;
+}
+
+#create_story_wrap .input_file_img input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    vertical-align: middle;
+}
+
+#create_story_wrap .select_is_public {
+    width: 400px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 3px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#create_story_wrap .select_is_public .public_p {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: .8em;
+}
+
+#create_story_wrap .select_is_public .public_p,
+#create_story_wrap .select_is_public .select_public,
+#create_story_wrap .select_is_public .select_friend_public,
+#create_story_wrap .select_is_public .select_private {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#create_story_wrap label {
+    font-size: .8em;
+    line-height: .8em;
+}
+
+#create_story_wrap [type="radio"],
+#create_story_wrap span {
+    vertical-align: middle;
+}
+
+#create_story_wrap .write_s_txt {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#create_story_wrap textarea {
+    resize: none;
+}
+
+#create_story_wrap textarea::placeholder {
+    line-height: 120px;
+    text-align: center;
+}
+
+#create_story_wrap .story_btns {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#create_story_wrap .story_btns button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3897f0;
+    border: solid 1px #2789e4;
+    border-radius: 5px;
+    
+    &:hover {
+        background-color: #2186e4;
+        cursor: pointer;
+    }
+}

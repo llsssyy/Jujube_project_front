@@ -1,0 +1,184 @@
+#modify_story_wrap .modify_img_wrap {
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#modify_story_wrap .swiper_img {
+    width: 100%;
+    height: 167px;
+}
+
+#modify_story_wrap .delete_btn {
+    display: inline-block;
+    width: 100%;
+    height: 22px;
+    line-height: 20px;
+}
+
+#modify_story_wrap .delete_btn span.pic_num {
+    font-size: .8em;
+    margin-left: 15px;
+    float: left;
+    padding: 2px;
+}
+
+#modify_story_wrap .delete_btn span.pic_del {
+    font-size: .8em;
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+    padding: 2px;
+    border: solid 1px #dadada;
+
+    &:hover{
+        background-color: #c8c8c8;
+    }
+}
+
+#modify_story_wrap .swiper_img img {
+    max-width: 167px;
+    max-height: 167px;
+	object-fit: contain;
+}
+
+#modify_story_wrap .swiper_img_plus {
+    cursor: pointer;
+}
+
+#modify_story_wrap .swiper_img_plus img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#modify_story_wrap .swiper {
+    width: 100%;
+    height: 200px;
+}
+
+#modify_story_wrap .swiper-slide {
+    height: 197px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modify_story_wrap .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#modify_story_wrap .swiper-pagination {
+    height: 34px;
+    line-height: 34px;
+    font-size: .9em;
+    position: absolute;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    bottom: -10px;
+}
+
+#modify_story_wrap .select_is_public {
+    width: 400px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#modify_story_wrap .select_is_public .public_p {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: .8em;
+}
+
+#modify_story_wrap .select_is_public .public_p,
+#modify_story_wrap .select_is_public .select_public,
+#modify_story_wrap .select_is_public .select_friend_public,
+#modify_story_wrap .select_is_public .select_private {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#modify_story_wrap .modify_s_txt {
+    width: 369px;
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+#modify_story_wrap textarea {
+    resize: none;
+}
+
+#modify_story_wrap label {
+    font-size: .8em;
+    line-height: .8em;
+}
+
+#modify_story_wrap .input_file_img {
+    width: 72px;
+    margin: 0 auto;
+}
+
+#modify_story_wrap .input_file_img label {
+    display: inline-block;
+    padding: 2px 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3897f0;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    border: solid 1px #2789e4;
+    &:hover{
+        background-color: #2186e4;
+        cursor: pointer;
+    }
+
+}
+
+#modify_story_wrap .input_file_img input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    vertical-align: middle;
+}
+
+#modify_story_wrap textarea::placeholder {
+    line-height: 120px;
+    text-align: center;
+}
+
+#modify_story_wrap .modify_story_btns {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#modify_story_wrap .modify_story_btns button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3897f0;
+    border: solid 1px #2789e4;
+    border-radius: 5px;
+    &:hover {
+        background-color: #2186e4;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,28 @@
+/*nav menu*/
+#nav_wrap ul.nav_menu li {
+    margin: 10px 0px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    &:hover {
+        background-color: #e8e8e8;
+    }
+}
+#nav_wrap div.nav_contents {
+    display: flex;
+}
+#nav_wrap div.nav_contents div.nav_img_wrap {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#nav_wrap div.nav_contents div.nav_img_wrap img {
+    height: 70%;
+    vertical-align: middle;
+}
+#nav_wrap div.nav_contents div.nav_text_wrap {
+    padding-left: 20px; 
+    height: 30px;
+    line-height: 30px;   
+}
+

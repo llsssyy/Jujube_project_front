@@ -1,0 +1,214 @@
+#follow_request_list_wrap {
+    height: 620px;
+    width: 100%;
+    position: relative;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    } 
+    
+    div.follow_request_header {
+        text-align: center;
+        padding: 20px;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    div.follow_request_list_section_wrap {
+        display: flex;
+        width: 681px;
+        margin: auto;
+        justify-content: space-between;
+        text-align: center;
+        div.follow_request_list_section1 {
+            padding: 10px;
+            width: 320px;
+            div.follow_request_list_section1_header {
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eee;
+            }
+        }
+        div.follow_request_list_section_line {
+            width: 1px;
+            background-color: #eee;
+            margin: 5px;
+        }
+        div.follow_request_list_section2 {
+            padding: 10px;
+            width: 320px;
+            div.follow_request_list_section2_header {
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eee;
+            }
+        }
+    }
+}
+
+#follow_request_list_section1_article,
+#follow_request_list_section2_article {
+
+    ul {
+        width: 300px;
+        height: 450px;
+        margin: auto;
+        overflow-y: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        li {
+            padding: 10px;
+            border-radius: 7px;
+            margin-bottom: 10px;       
+        }
+    }
+}
+#follow_request_list_section1_article {
+    ul {
+        li {
+            display: flex;
+        }
+    }
+}
+.follow_request_list_section1_article_item {
+    display: flex;
+    cursor: pointer;
+
+    div.follow_request_list_section1_article_item_profile {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        background-color: #ddd;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+    }
+    div.follow_request_list_section1_article_item_info {
+        font: none;
+        p {
+            text-align: left;
+            padding-left: 10px;
+            height: 25px;
+            line-height: 25px;
+        }
+    }
+}
+
+.follow_request_list_section1_btn_area {
+    margin-left: auto;
+    line-height: 50px;
+    div.un_follow_btn {
+        font-size: 0.9em;
+        color: #fff;
+        background-color: rgb(182, 5, 5);    
+        margin-top: 15px;
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 7px;
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer;       
+    }
+}
+.follow_request_list_section2_article_item_wrap {
+    display: flex;
+}
+.follow_request_list_section2_article_item {
+    display: flex;
+    cursor: pointer;
+
+    div.follow_request_list_section2_article_item_profile {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        background-color: #ddd;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+    }
+    div.follow_request_list_section2_article_item_info {
+        font: none;
+        p {
+            text-align: left;
+            padding-left: 10px;
+            height: 25px;
+            line-height: 25px;
+            max-width: 126px;
+        }
+    }
+}
+
+.follow_request_list_section2_btn_area {
+    margin-left: auto;
+    line-height: 50px;
+    display: flex;
+    
+    div.follow_btn {
+        font-size: 0.9em;
+        color: #fff;
+        background-color: rgb(18, 57, 228);    
+        margin-top: 15px;
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 7px;
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer; 
+        margin-right: 5px;      
+    }
+    div.un_follow_btn {
+        font-size: 0.9em;
+        color: #fff;
+        background-color: rgb(182, 5, 5);    
+        margin-top: 15px;
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 7px;
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer;       
+    }
+}
+.follow_request_list_section2_accept_form {
+    display: none;
+    margin-top: 10px;
+    padding-left: 58px;
+    font-size: 0.8em;
+    text-align: left;
+    font-weight: 600;
+    input {
+        font-size: 0.8em;
+        border-radius: 10px;
+        border: 1px solid #000;
+        width: 95px;
+        margin: 0 10px;
+        padding: 3px;
+    }
+    button {
+        font-size: 0.9em;
+        color: #fff;
+        background-color: rgb(18, 57, 228);    
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer;  
+        border: none;
+    }
+}

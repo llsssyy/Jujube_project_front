@@ -1,0 +1,15 @@
+body {
+  background: center 25px no-repeat url(/public/imgs/bg.png);
+  
+}
+div.App {
+  width: 952px;
+  margin:0 auto;
+  margin-top: 68px;
+  display: flex;
+  overflow: hidden;
+}
+
+div.App nav {  
+  border-right: 1px solid #ddd;  
+}

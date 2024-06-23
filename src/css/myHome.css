@@ -1,0 +1,187 @@
+#my_profile_wrap {
+    /* position: relative; */
+    height: 620px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }   
+}
+
+#my_profile_wrap div.profile_member_name {
+    width: 150px;
+    text-align: center;
+    margin-left: 130px;
+}
+
+#my_profile_wrap div.profile_member_name p {
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#my_profile_wrap div.profile_self_intro {
+    width: 250px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+#my_profile_wrap div.profile_self_intro p {
+    padding: 10px;
+}
+
+#my_profile_wrap div.profile_header {
+    display: flex;
+    padding-top: 5px;
+    /* justify-content: space-between; */
+    gap: 60px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+#my_profile_wrap div.post, div.friend {
+    font-size: 1.2em;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+}
+
+#my_profile_wrap div.profile_header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#my_profile_wrap div.profile_follow_btn {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#my_profile_wrap div.profile_follow_btn input[type="button"] {
+    background-color: #3897f0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 100px;
+    border: none;
+}
+
+#my_profile_wrap div.profile_follow_btn input[type="button"]:hover {
+    background-color: #357ae8;
+}
+
+#my_profile_wrap div.profile_img_name {
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#my_profile_wrap div.profile_item {
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* 세로 방향 가운데 정렬 */
+    gap: 10px; /* 요소들 사이의 간격 설정 */
+    margin: 30px;
+}
+
+#my_profile_wrap div.profile_item div {
+    height: 165px;
+}
+
+#my_profile_wrap div.profile_item img {
+    border: 1px solid #000; 
+    background-color: #ddd;
+    width: 165px; /* 너비를 직접 지정 */
+    height: 165px; /* 높이를 직접 지정 */
+    box-sizing: border-box; /* 요소의 크기에 경계 상자와 안팎 여백을 포함 */
+} 
+
+#my_profile_wrap div.profile_img_text {
+    text-align: center;
+}
+
+#my_profile_wrap #story_wrap {
+    height: 620px;
+    width: 100%;
+    margin: auto;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+        display: none;
+    }  
+    
+}
+
+#my_profile_wrap #story_wrap > ul{
+    /* overflow-y: scroll;
+    overflow: hidden;
+    &::-webkit-scrollbar{
+        display: none;
+    }    */
+}
+
+#my_profile_wrap #story_wrap > ul > li{
+    margin:20px auto;
+    
+}
+
+#my_profile_wrap #open_story_wrap {
+    width: 750px;
+    height: 620px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255);
+    /* transition: 0.5s; */
+    box-sizing: border-box;
+    z-index: 1;
+    visibility:visible;
+    /* overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }    */
+    
+}
+
+#my_profile_wrap #hide_story_wrap{
+    width: 750px;
+    height: 620px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    /* display: none; */
+    visibility:hidden;
+    /* background-color: rgba(0,0,0,0.6); */
+    z-index: 1;
+    /* transition: 0.5s; */
+    /* box-sizing: border-box; */
+}
+
+
+#my_profile_wrap div.modal_close_btn img {
+    width: 100%;
+}
+
+#my_profile_wrap div.modal_close_btn {
+    /* margin: 20px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    background-color: #000  ; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    
+    
+}
+

@@ -1,0 +1,55 @@
+#home_wrap{
+    height: 620px;
+    width: 100%;
+    position: relative;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }    
+}
+
+#reply_show_modal {
+    width: 750px;
+    height: 620px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.6);
+    transition: 0.5s;
+    box-sizing: border-box;
+    padding-top: 60px;
+    z-index: 1;
+}
+#reply_hide_modal {
+    width: 750px;
+    height: 620px;
+    position: absolute;
+    bottom: -620px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+    transition: 0.5s;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+div.reply_modal_close_btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;right: 0;
+    cursor: pointer;
+}
+
+div.reply_modal_close_btn div {
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    background-color: #fff;
+}
+
+div.reply_modal_close_btn div:nth-child(1) {
+    transform: rotate(45deg);
+}
+div.reply_modal_close_btn div:nth-child(2) {
+    transform: rotate(-45deg);
+}
