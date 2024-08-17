@@ -1,8 +1,9 @@
-## React와 Node.js를 이용한 SNS 프로그램 Project
+## JujubeWorld Project
+React와 Node.js를 이용한 SNS 프로그램 Project
 
 ---
 
-![image14.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/ad4800ac-ca0e-4160-8aa8-3212f05fe7b9/image14.png)
+![1](https://github.com/user-attachments/assets/308a1edd-af2c-4168-a91a-200859093d68)
 
 ## 1️⃣ 프로젝트 개요
 
@@ -18,11 +19,11 @@
 
 ## 2️⃣ 프로젝트 구성
 
-![제목 없음.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/d3e6e282-7db0-4d32-acca-2149cd6e5e54/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C.png)
+![2](https://github.com/user-attachments/assets/30c48399-79c9-4e9b-8ef7-25a958b10fd3)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/2fcd810d-0689-49af-b4dc-8b02202455c3/Untitled.png)
+![3](https://github.com/user-attachments/assets/e287ae69-bb19-49d1-8fb6-83b6ab89d198)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/f46724fc-a5fb-4413-bdf3-73dd358a295c/Untitled.png)
+![4](https://github.com/user-attachments/assets/aca322e9-7e42-4300-9340-49ab7122b2be)
 
 - **클라이언트**에게 요청을 받은 후 **React-Router로 매핑처리**, **서비스 로직**을 구현하는 기본적인 **MVC 구조**로 프로젝트를 설계하였음.
 
@@ -30,36 +31,36 @@
 
 ### 1. Inquirer 라이브러리를 이용한 CLI프로그램
 
-![캡처.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/19c7fc97-1399-413f-b6cb-f89d5c5dc6b9/%EC%BA%A1%EC%B2%98.png)
+![5](https://github.com/user-attachments/assets/bdf4b1d8-8d99-49de-80da-1f7e1059efac)
 
 - **포스트맨 API**를 사용하는 대신, 간단한 **CLI프로그램**을 개발하여 **데이터베이스 서버 연결을 테스트** 하였음
     - **Inquirere** 라이브러리를 이용하여 **회원정보 CRUD 기능**을 구현.
 
 ### 2. 멤버 서비스
 
-![image13.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/74bd04b2-7cc5-45a3-b426-997fc8660857/image13.png)
+![6](https://github.com/user-attachments/assets/49f76101-cbe0-4387-a3a2-2e232c979026)
 
 - **일반 로그인**과 **구글 인증 로그인**을 구현하였음.
 - **JWT인증 및 인가** 기능을 구현하여 **Token**의 **유효시간**이 만료되면 서비스를 이용할 수 없고, **재 로그 인** 후 서비스를 이용 할 수 있게끔 구현하였음.
 
 ### 3. 스토리(게시글) 관련 기능
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/4c5e9878-0dcc-417d-8e06-f26084788b5c/Untitled.png)
+![7](https://github.com/user-attachments/assets/5fc5eed5-b58c-4d84-97c4-6cd817db33fc)
 
 - 스토리 **작성**
     - 원하는 **사진**을 선택 후, **공개여부**를 전체공개, 일촌공개, 비공개(나만보기) **세가지**로 나누어서 스토리를 작성하는 기능 구현.
     
-    ![image16.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/985ae56a-1ba3-47f7-b977-59af00fd58a2/image16.png)
+![8](https://github.com/user-attachments/assets/ca291117-18cd-4119-ba44-ca8226a2d1ce)
     
 - 스토리 **가져오기**
     - **로그인된 ID**를 기준으로 **본인의 게시물**과 **친구들**의 전체공개 게시물 및 일촌공개 게시물이 게시물 작성 날짜 기준 **내림차순**으로 정렬되게 하였음.
     
-    ![image19.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/f720e67f-a7bc-4696-a733-0b83c637f83d/image19.png)
+![9](https://github.com/user-attachments/assets/8fc60fb0-dafa-43c3-93b5-135f523bc699)
     
 - 스토리 **수정**
     - 내 스토리의 사진 및 글 내용, 공개여부를 수정할 수 있다.
     
-    ![image20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/1c349e65-cc3d-4a0d-85e6-79670cf2daf0/image20.png)
+![10](https://github.com/user-attachments/assets/cdfc8564-6e6a-43be-807c-b9dd36bc49c5)
     
     - 또한 기능을 구현 할 때, **fs_extra module**을 이용하여 게시글의 사진 **삭제** 및 **추가** 시 **서버에 저장된 디렉토리에**서도 사진이 **저장** 및 **삭제** 되게 구현하였음.
 - 스토리 **삭제**
@@ -67,33 +68,33 @@
 
 ### 3. 댓글 및 좋아요 기능
 
-![image16.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/985ae56a-1ba3-47f7-b977-59af00fd58a2/image16.png)
+![11](https://github.com/user-attachments/assets/5a2356b8-335d-4544-acd1-caee60ea473d)
 
 - **좋아요 버튼**을 눌렀을 시 **실시간**으로 하트 아이콘이 빨갛게 변경되어 친구의 스토리에 **좋아요**를 눌렀는지 간편하게 확인 가능.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/4ac0b1cd-3943-4f7a-be2b-f66bb9592462/Untitled.png)
+![12](https://github.com/user-attachments/assets/356309bd-646b-4c1a-a1b3-6f61f3d267f4)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/44466b02-e233-4ecb-b963-71641c8243fd/Untitled.png)
+![13](https://github.com/user-attachments/assets/67e4e196-378e-4a6b-95ff-b2e52ebae8cc)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/257ccf9b-ac1b-48d5-85fb-d54e5d54ac69/Untitled.png)
+![14](https://github.com/user-attachments/assets/175cb91d-b0ae-48ab-9640-ede9a751868d)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/b383064c-0bb1-4bdf-8c6f-f291be712c1e/Untitled.png)
+![15](https://github.com/user-attachments/assets/40d082c0-4be8-4868-ab68-e90383ad12d8)
     
 - **댓글** 및 **대댓글** 작성 기능
     - **axios** 비동기 통신을 사용하여 모든 **댓글** 및 **좋아요** **이벤트**마다 **실시간**으로 **컴포넌트**가 **렌더링** 되게 설계하였음.
 
 ### 3. 일촌(친구) 관련 서비스
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/89fa0ee2-e524-4431-897c-f6836b3ec420/Untitled.png)
+![16](https://github.com/user-attachments/assets/64d36475-f66a-4b87-8c19-7dfd63fc1060)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/be45b9bf-dc80-4da4-bfa2-8f4cfec7d530/Untitled.png)
+![17](https://github.com/user-attachments/assets/0c608759-a8bb-458c-98be-01a2484a51c8)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/3e2faae3-657e-443c-9678-e06478f3a583/Untitled.png)
+![18](https://github.com/user-attachments/assets/6c1dd1aa-a886-4378-a3d3-801b8ba09943)
 
 - **친구 검색** 및 **친구신청** 기능 구현.
     - 원하는 일촌명(별명)을 입력하여 친구 신청을 할 수 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b5586b7-f187-4e65-8bba-cb9af3b94c07/0c7fd1d2-c7c7-4f0d-92ce-afc31d0c978b/Untitled.png)
+![19](https://github.com/user-attachments/assets/5b2a1285-56a9-44f6-a47b-95277a79c302)
 
 - **친구들**의 **목록** 확인 및 내가 **보낸 신청**, **받은 신청**을 확인할 수 있음
 
